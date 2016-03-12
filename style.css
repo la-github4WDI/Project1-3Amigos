@@ -1,0 +1,121 @@
+body {
+background-color: lightblue;
+
+}
+
+#clearbutton {
+    font: 40px Arial;
+    letter-spacing: -3px;
+    text-decoration: none;
+}
+
+#message {
+    font: 70px bold Serif;
+    letter-spacing: -3px;
+
+}
+
+#topcontainer {
+    margin: 10px auto;
+    width: 58%;
+    height: 170px;
+    /*border: 2px solid black;*/
+    position:relative;
+}
+
+.bigcontainer {
+    /*border: 1px dotted black;*/
+    min-width: 60%;
+    top: 200px;
+    height: 470px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    background-color: green;
+}
+
+#leftcontainer {
+    font-size: 35px;
+    /*padding: 5px auto;*/
+    text-align: center;
+    margin: 5px auto;
+    height: 454px;
+    width: 20%;
+    border: 2px solid black;
+    /*flex-wrap: wrap;*/
+    background-color: #808000;
+}
+
+#logX {
+    width: 80%;    
+    text-align: center;
+
+}
+
+#log0 {
+    width: 80%;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+#tttcontainer {
+    margin: auto;
+    margin-top: 5px;
+    width: 455px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid white;
+}
+
+
+.tttcell {
+    width: 150px;
+    height: 150px;
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+}
+.tttcell:hover {
+    background-color: gray;
+}
+
+.border-b {
+    border-bottom: 2px solid white;
+}
+
+.border-r {
+    border-right: 2px solid white;
+}
+
+#botmcontainer {
+
+    text-align: center;
+    margin: 5px auto;
+    width:20%;
+    border: 2px solid red;
+    background-color: red;
+}
+#msgcontainer {
+    margin: 10px auto;
+    width: 65%;
+    height: 80px;
+    /*border: 2px solid black;*/
+    text-align: center;
+}
+
+
+#rightcontainer {
+    font-size: 35px;
+    padding: 0px;
+    text-align: center;
+    margin: 5px auto;
+    height: 454px;
+    width: 20%;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    background-color: #808000;
+}
+
+
